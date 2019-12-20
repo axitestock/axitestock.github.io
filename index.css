@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url('ActaDisplay-Black.otf');
+    font-family: Acta;
+    font-weight: bold;
+}
+
+@font-face {
+    src: url('ActaDisplay-Medium.otf');
+    font-family: Acta;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: Acta;
+    font-weight: bold;
+    font-size: 5rem;
+    color: white;
+}
+
+h2 {
+    font-family: Acta;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+
+h3 {
+    font-family: Acta;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+p {
+    line-height: 190%;
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 5pt 10pt;
+    margin-top: 5pt;
+    width: 200pt;
+    border-radius: 20pt;
+    background: #FA513A;
+    border: none;
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+img {
+    margin: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.landing {
+    background-image: url("Hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+}
+
+.background-blur {
+    backdrop-filter: blur(8px) brightness(50%);
+    height: 95vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    width: 100%;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 20pt;
+    width: 100%;
+    text-align: center;
+}
+
+.main-text {
+    margin-bottom: 60pt;
+    margin-top: 20pt;
+}
+
+.sign-up {
+    background: #ED533E;
+    padding: 40pt;
+    text-align: center;
+}
+
+.signup-2 {
+    line-height: 100%;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.signup-email {
+    width: 100%;
+    display: flex;
+    margin: 60pt 0 20pt 0;
+}
+
+.email {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: solid;
+    font-size: 14pt;
+}
+
+.email:focus {
+    outline: none;
+}
+
+input:-internal-autofill-selected {
+    background: transparent !important;
+}
+
+.email::-webkit-input-placeholder {
+    /* Edge */
+    color: rgba(0, 0, 0, .5);
+}
+
+.email:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgba(0, 0, 0, .5);
+}
+
+.email::placeholder {
+    color: rgba(0, 0, 0, .5);
+}
+
+.submit {
+    background: transparent;
+    border: none;
+    border-bottom: solid;
+    font-size: 14pt;
+    border-radius: 0;
+    text-align: right;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+
+#footer {
+    max-width: 80%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-header {
+    font-size: 40pt;
+    color: white;
+    margin-right: 30pt;
+}
+
+.left-footer {
+    padding: 40pt 0 0 0;
+}
+
+.right-footer {
+    padding: 40pt 0 0 0;
+    display: flex;
+    align-content: flex-end;
+    justify-items: right;
+}
+
+.sub-right-footer {
+    padding-bottom: 30px;
+}
+
+.footer-link {
+    margin-bottom: 0;
+    font-size: 12pt;
+    opacity: .6;
+    color: white;
+}
+
+.footer-button {
+    width: 100%;
+}
+
+.footer-input {
+    border-radius: 30pt;
+    padding: 4pt 5pt;
+    border: none;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
