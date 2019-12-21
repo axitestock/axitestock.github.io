@@ -81,7 +81,6 @@ img {
 }
 
 .background-blur {
-    backdrop-filter: blur(8px) brightness(50%);
     height: 95vh;
     display: flex;
     position: relative;
