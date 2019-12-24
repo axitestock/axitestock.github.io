@@ -73,9 +73,6 @@ img {
 }
 
 .landing {
-    background-image: url("sneakerdrop.mp4");
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 95vh;
     width: 100%;
 }
