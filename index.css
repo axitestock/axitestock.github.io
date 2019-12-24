@@ -75,11 +75,13 @@ img {
 .landing {
     height: 95vh;
     width: 100%;
+    background: transparent;
 }
 
 .background-blur {
     height: 95vh;
     display: flex;
+    background: transparent;
     position: relative;
     align-items: center;
 }
