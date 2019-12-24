@@ -123,6 +123,7 @@ img {
         background: transparent;
         position: relative;
         align-items: center;
+        margin-bottom: 20vh;
     }
 }
 
