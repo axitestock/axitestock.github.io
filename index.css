@@ -114,8 +114,15 @@ img {
     h5 {
         font-size: 1.3rem;
     }
-    .hero-button {
-        bottom: 50pt;
+    /* .hero-button {
+        bottom: 60px;
+    } */
+    .background-blur {
+        height: 90vh;
+        display: flex;
+        background: transparent;
+        position: relative;
+        align-items: center;
     }
 }
 
