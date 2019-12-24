@@ -94,9 +94,9 @@ img {
     min-height: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     #myVideo {
-        min-height: 120%;
+        height: 120vh;
     }
 }
 
