@@ -91,13 +91,7 @@ img {
     right: 0;
     bottom: 0;
     min-width: 100vw;
-    min-height: 100vh;
-}
-
-@media only screen and (max-width: 600px) {
-    h5 {
-        font-size: 1.3rem;
-    }
+    height: 900px;
 }
 
 .hero-text {
@@ -114,6 +108,15 @@ img {
     bottom: 20pt;
     width: 100%;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h5 {
+        font-size: 1.3rem;
+    }
+    .hero-button {
+        bottom: 50pt;
+    }
 }
 
 .main-text {
